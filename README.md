@@ -1,5 +1,9 @@
 # Huawei Cloud Practicum Final Project
 
+## Project Description
+
+A certificate generation project will be designed using Huawei Cloud services. New certificates will be obtained by printing the name-surname data stored in Google Sheets to the blank certificate. This will be done by creating a button in Google Sheets, the API Gateway address will be given to the button to establish a connection, each time the button is clicked, the API will go to the empty image file in OBS and print the name it pulls from the table to the image file with the code in the function graph, then store these certificates in a different OBS address.
+
 ## Used Huawei Cloud Services
 
 Function Graph: Function Graph transforms data and stores the transformed data in OBS and calls a function that writes the captured data to the image.
@@ -8,9 +12,6 @@ Object Storage Service: Image files are stored. It stores the initial version of
 
 API Gatewey: The API Gateway represents incoming records and passes raw data records directly to the Function Graph.
 
-## Project Description
-
-A certificate generation project will be designed using Huawei Cloud services. New certificates will be obtained by printing the name-surname data stored in Google Sheets to the blank certificate. This will be done by creating a button in Google Sheets, the API Gateway address will be given to the button to establish a connection, each time the button is clicked, the API will go to the empty image file in OBS and print the name it pulls from the table to the image file with the code in the function graph, then store these certificates in a different OBS address.
 
 ## Technical Architecture
 
